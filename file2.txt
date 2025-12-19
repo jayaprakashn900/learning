@@ -1,1 +1,9 @@
-hi this is jayaprkash here, 
+hi this is jayaprkash here,
+
+
+smoke testing 
+Regression testing 
+Accessibility testing 
+adhoc testing
+load testing
+
