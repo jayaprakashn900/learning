@@ -1,0 +1,5 @@
+hi this is the automation class and updating the skills which need for 
+test automation and quick deployment of application by using continous 
+integration tool jenkins
+
+
