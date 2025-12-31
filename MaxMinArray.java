@@ -1,22 +1,11 @@
-
-public class MaxMinArray {
+public class minmax {
     public static void main(String[] args) {
-        int arr[] = {10, 50, 5, 80, 20};
-// Initialize max/min with the first element
-        int max = arr[0];
-        int min = arr[0];
-        for (int i = 1; i < arr.length; i++) {
-            if (arr[i] > max) {
-                max = arr[i];
-            }
-            if (arr[i] < min) {
-                min = arr[i];
-            }
+        int[] arr = {10, 50, 5, 80, 20};
+        int min = arr[0], max = arr[0];
+        for(int i : arr) {
+            if(i < min) min = i;
+            if(i > max) max = i;
         }
-        System.out.println("Maximum value in array: " + max);
-        System.out.println("Minimum value in array: " + min);
+        System.out.println("Min: " + min + ", Max: " + max);
     }
 }
-
-
-
