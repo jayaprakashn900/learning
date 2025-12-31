@@ -1,4 +1,3 @@
-package java_int_prgms;
 
 public class MaxMinArray {
     public static void main(String[] args) {
